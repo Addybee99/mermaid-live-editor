@@ -1,0 +1,54 @@
+erDiagram
+    TraditionalMethods {
+        +id (int)
+        name (string)
+        advantages (string)
+        disadvantages (string)
+    }
+    OrganicAcids {
+        +id (int)
+        name (string)
+        advantages (string)
+        disadvantages (string)
+    }
+    LacticAcidBacteria {
+        +id (int)
+        name (string)
+        advantages (string)
+        disadvantages (string)
+    }
+    HurdleTechnology {
+        +id (int)
+        name (string)
+        advantages (string)
+        disadvantages (string)
+    }
+    EssentialOils {
+        +id (int)
+        name (string)
+        advantages (string)
+        disadvantages (string)
+    }
+    PlantExtracts {
+        +id (int)
+        name (string)
+        advantages (string)
+        disadvantages (string)
+    }
+    NanotechnologyBasedMaterials {
+        +id (int)
+        name (string)
+        advantages (string)
+        disadvantages (string)
+    }
+    Bacteriocins {
+        +id (int)
+        name (string)
+        advantages (string)
+        disadvantages (string)
+    }
+
+    TraditionalMethods }|--|| OrganicAcids
+    LacticAcidBacteria }|--|| HurdleTechnology
+    EssentialOils }|--|| PlantExtracts
+    NanotechnologyBasedMaterials }|--|| Bacteriocins
